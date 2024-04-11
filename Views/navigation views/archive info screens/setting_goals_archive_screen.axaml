@@ -1,0 +1,61 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.setting_goals_archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive info styles/making_decisions_archive_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+		HorizontalAlignment="Center"
+		Name="settingGoalsArchiveStackPanel">
+			<TextBlock
+				Classes="title"
+				PointerReleased="returnPrevious">
+				setting goals
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				1. goals can be long-term or short-term
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				2. short-term goals include paying for a vacation, car maintenance, etc.
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				3. to set a goal, understand your inflow and your outflow. keep track of what you earn and spend
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				4. ensure to keep a realistic goal
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				5. short-term goals can be achieved in a year or less (any longer is a long-term goal)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				6. always remember to maintain an emergency fund in addition to the goal
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				7. a way to start goals is to start saving, like buying cheaper alternatives
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				8. put whatever you saved from your goal into an interest-bearing account
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				9.  the consider interest, inflation, and appreciation rates when planning a goal
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				10. goals can be long-term as well, like paying for a car, a house, or tuition
+			</TextBlock>
+		</StackPanel>
+	</Panel>
+</UserControl>

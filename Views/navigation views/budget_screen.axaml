@@ -1,0 +1,307 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.budget_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/budget_screen_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel>
+		<Panel Background="Pink" IsVisible="True" Name="budget">
+			<StackPanel
+			Margin="15,20"
+			Name="budgetStackPanel"
+			HorizontalAlignment="Center">
+				<TextBlock
+					Classes="title"
+					PointerReleased="returnHome">
+					budgeting and savings plans
+				</TextBlock>
+
+				<StackPanel
+					HorizontalAlignment="Center">
+					<Grid
+						Margin="5"
+						ColumnDefinitions="175, 100"
+						RowDefinitions="Auto, Auto, Auto">
+						<Label
+							Grid.Row="0" Grid.Column="0"
+							Classes="incomeUserPrompt">
+							annual income ($):
+						</Label>
+						<TextBox
+							Name="incomeInput"
+							Grid.Row="0" Grid.Column="1"
+							Classes="incomeUserInput">
+						</TextBox>
+						<Label
+							Grid.Row="1"
+							Grid.Column="0"
+							Classes="incomeUserPrompt">
+							debt value ($):
+						</Label>
+						<TextBox
+							Grid.Row="1"
+							Grid.Column="1"
+							Name="debtInput"
+							Classes="incomeUserInput">
+						</TextBox>
+					</Grid>
+				</StackPanel>
+
+				<Separator
+					Margin="0,2,0,0"
+					Width="5050"
+					Background="Snow"
+					Height="1">
+				</Separator>
+
+				<StackPanel
+					Orientation="Horizontal"
+					Margin="50,40,0,0">
+					<TextBlock
+						Margin="-10,0,0,0"
+						FontWeight="DemiBold"
+						Foreground="Snow"
+						TextDecorations="Underline">
+						your current budget (%):
+					</TextBlock>
+
+					<StackPanel>
+						<Grid
+							Margin="-185,40,10, 30"
+							ColumnDefinitions="150,80,150,80"
+							RowDefinitions="40, 40, 40, 40, 40, 40">
+							<TextBlock
+								Grid.Row="0"
+								Grid.Column="0"
+								Classes="budgetUserPrompt">
+								mortgage/rent
+							</TextBlock>
+							<TextBox
+								Grid.Row="0"
+								Grid.Column="1"
+								Name="housingInput"
+								Classes="budgetUserInput">
+							</TextBox>
+							<TextBlock
+								Grid.Row="1"
+								Grid.Column="0"
+								Classes="budgetUserPrompt">
+								utilities
+							</TextBlock>
+							<TextBox
+								Grid.Row="1"
+								Grid.Column="1"
+								Name="utilitiesInput"
+								Classes="budgetUserInput">
+							</TextBox>
+							<TextBlock
+							Grid.Row="2"
+							Grid.Column="0"
+							Classes="budgetUserPrompt">
+								insurance(s)
+							</TextBlock>
+							<TextBox
+							Grid.Row="2"
+							Grid.Column="1"
+							Name="insuranceInput"
+							Classes="budgetUserInput">
+							</TextBox>
+							<TextBlock
+							Grid.Row="0"
+							Grid.Column="2"
+							HorizontalAlignment="Center"
+							Classes="budgetUserPrompt">
+								transportation
+							</TextBlock>
+							<TextBox
+							Grid.Row="0"
+							Grid.Column="3"
+							Name="transportationInput"
+							Classes="budgetUserInput">
+							</TextBox>
+							<TextBlock
+								Grid.Row="1"
+								Grid.Column="2"
+								HorizontalAlignment="Center"
+								Classes="budgetUserPrompt">
+								food/groceries
+							</TextBlock>
+							<TextBox
+							Grid.Row="1"
+							Grid.Column="3"
+							Name="groceriesInput"
+							Classes="budgetUserInput">
+							</TextBox>
+							<TextBlock
+								Grid.Row="2"
+								Grid.Column="2"
+								HorizontalAlignment="Center"
+								Classes="budgetUserPrompt">
+								other spending
+							</TextBlock>
+							<TextBox
+							Grid.Row="2"
+							Grid.Column="3"
+							Name="otherInput"
+							Classes="budgetUserInput">
+							</TextBox>
+						</Grid>
+					</StackPanel>
+
+					<Button
+						BorderThickness="2"
+						BorderBrush="Snow"
+						CornerRadius="50"
+						Height="50"
+						Width="250"
+						HorizontalContentAlignment="Center"
+						VerticalContentAlignment="Center"
+						FontWeight="DemiBold"
+						Foreground="Snow"
+						Margin="25,-80,0,0"
+						Background="rgba(255, 221, 239, 0.8)"
+						Click="budgetRecommendationClicked">
+						calculate new budget
+					</Button>
+				</StackPanel>
+			</StackPanel>
+		</Panel>
+		<Panel Background="Pink" IsVisible="False" Name="recommendation">
+			<StackPanel
+				Name="budgetRecommendationStackPanel"
+				HorizontalAlignment="Center"
+				Margin="15,20">
+				<TextBlock
+					Classes="title"
+					PointerReleased="returnToBudget">
+					new budget breakdown
+				</TextBlock>
+				<TextBlock
+					FontWeight="SemiBold"
+					FontSize="20"
+					Margin="25 5"
+					Foreground="Snow"
+					Name="assets">
+					assets: $0
+				</TextBlock>
+				<TextBlock
+					FontWeight="SemiBold"
+					FontSize="20"
+					Margin="25 0"
+					Foreground="Snow"
+					Name="income">
+					income: $0
+				</TextBlock>
+				<Separator
+					Classes="divider"
+					Margin="0,15">
+				</Separator>
+				<StackPanel
+				Orientation="Horizontal"
+				Margin="125,-25">
+					<Grid
+						RowDefinitions="30, 30, 30, 30, 30, 30, 30"
+						ColumnDefinitions="130, 70"
+						Margin="-100 30">
+						<TextBlock
+							Grid.Row="0"
+							Grid.Column="0"
+							Classes="recommendedBudgetText">
+							taxes/mortgage
+						</TextBlock>
+						<TextBlock
+							Grid.Row="0"
+							Grid.Column="1"
+							Classes="recommendedBudgetText"
+							Name="recommendedHousing">
+							$0
+						</TextBlock>
+						<TextBlock
+							Grid.Row="1"
+							Grid.Column="0"
+							Classes="recommendedBudgetText">
+							utilities
+						</TextBlock>
+						<TextBlock
+							Grid.Row="1"
+							Grid.Column="1"
+							Classes="recommendedBudgetText"
+							Name="recommendedUtilities">
+							$0
+						</TextBlock>
+						<TextBlock
+							Grid.Row="2"
+							Grid.Column="0"
+							Classes="recommendedBudgetText">
+							insurance(s)
+						</TextBlock>
+						<TextBlock
+							Grid.Row="2"
+							Grid.Column="1"
+							Classes="recommendedBudgetText"
+							Name="recommendedInsurance">
+							$0
+						</TextBlock>
+						<TextBlock
+							Grid.Row="3"
+							Grid.Column="0"
+							Classes="recommendedBudgetText">
+							transportation
+						</TextBlock>
+						<TextBlock
+							Grid.Row="3"
+							Grid.Column="1"
+							Classes="recommendedBudgetText"
+							Name="recommendedTransportation">
+							$0
+						</TextBlock>
+						<TextBlock
+							Grid.Row="4"
+							Grid.Column="0"
+							Classes="recommendedBudgetText">
+							food/groceries
+						</TextBlock>
+						<TextBlock
+							Grid.Row="4"
+							Grid.Column="1"
+							Classes="recommendedBudgetText"
+							Name="recommendedGroceries">
+							$0
+						</TextBlock>
+						<TextBlock
+							Grid.Row="5"
+							Grid.Column="0"
+							Classes="recommendedBudgetText">
+							other/savings
+						</TextBlock>
+						<TextBlock
+							Grid.Row="5"
+							Grid.Column="1"
+							Classes="recommendedBudgetText"
+							Name="recommendedOtherSpending">
+							$0
+						</TextBlock>
+					</Grid>
+				</StackPanel>
+				<Separator
+					Classes="divider">
+				</Separator>
+				<TextBlock
+				Classes="recommendationText"
+				HorizontalAlignment="Center"
+				Name="budgetRecommendation">
+					no recommendation!
+				</TextBlock>
+				<Image
+						Source="/Assets/chart.png"
+						Width="400"
+						Height="200"
+						Margin="0 -350 -290 -40"/>
+			</StackPanel>
+		</Panel>
+	</Panel>	
+</UserControl>
+

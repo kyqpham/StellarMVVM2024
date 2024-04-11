@@ -1,0 +1,77 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.financial_calculators_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/financial_calculators_screen_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+			Name="financialCalculatorsStackPanel">
+			<TextBlock
+				Classes="title"
+				Margin="15,20"
+				PointerReleased="returnHome">
+				financial calculators
+			</TextBlock>
+
+			<TextBlock
+				Classes="subTitle">
+				use the buttons below to pick a calculator
+			</TextBlock>
+
+			<StackPanel
+				HorizontalAlignment="Center">
+				<Grid
+				RowDefinitions="100, 100, 100"
+				ColumnDefinitions="150,150, 150"
+				Margin="0,50,0,0">
+					<Button
+						Grid.Row="0"
+						Grid.Column="0"
+						Classes="buttonSelection"
+						Click="inflationClicked">
+						inflation rate
+					</Button>
+					<Button
+						Grid.Row="0"
+						Grid.Column="1"
+						Classes="buttonSelection"
+						Click="depreciationClicked">
+						depreciation rate
+					</Button>
+					<Button
+						Grid.Row="0"
+						Grid.Column="2"
+						Classes="buttonSelection"
+						Click="appreciationClicked">
+						appreciation rate
+					</Button>
+					<Button
+						Grid.Row="1"
+						Grid.Column="0"
+						Classes="buttonSelection"
+						Click="deflationClicked">
+						deflation rate
+					</Button>
+					<Button
+						Grid.Row="1"
+						Grid.Column="1"
+						Classes="buttonSelection"
+						Click="simpleInterestClicked">
+						simple interest
+					</Button>
+					<Button
+						Grid.Row="1"
+						Grid.Column="2"
+						Classes="buttonSelection"
+						Click="compoundInterestClicked">
+						compound interest
+					</Button>
+				</Grid>
+			</StackPanel>
+		</StackPanel>
+	</Panel>
+</UserControl>

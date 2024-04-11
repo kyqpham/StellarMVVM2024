@@ -1,0 +1,61 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.inflation_archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive info styles/inflation_archive_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+		HorizontalAlignment="Center"
+		Name="inflationArchiveStackPanel">
+			<TextBlock
+				Classes="title"
+				PointerReleased="returnPrevious">
+				inflation
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				1. inflation occurs when there is too much money in the economic circulation
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				2. essentially, your money is worth less
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				3. when all people have more money, prices go up so suppliers can make more relative profit
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				4. to battle inflation, the government increases taxes people have to pay
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				5. increase of taxes result in less spending money people have. that means: less money in the circulation
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				6. to calculate inflation rate, look at a product price from two different years (same product)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				7. take the difference, divide it by the original price. multiply the quotient by one hundred for the rate
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				8. when all people have more money, prices go up so suppliers can make more relative profit
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				9. a negative inflation rate signals deflation (your money is worth more)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				10.inflation usually occurs when there is high demand for something
+			</TextBlock>
+		</StackPanel>
+	</Panel>
+</UserControl>

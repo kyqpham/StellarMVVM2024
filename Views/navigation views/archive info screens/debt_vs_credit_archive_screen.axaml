@@ -1,0 +1,61 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.debt_vs_credit_archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive info styles/debt_vs_credit_archive_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+		HorizontalAlignment="Center"
+		Name="debitvsCreditArchiveStackPanel">
+			<TextBlock
+				Classes="title"
+				PointerReleased="returnPrevious">
+				debit vs. credit
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				1. debit cards allow someone to withdraw direct funds from their account
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				2. credit cards allow you to take a small loan from the credit company
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				3. for credit cards, you have to pay the credit owed at the end of whatever period specifed
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				4. the credit score describes how well you take care of your credit card, like when you repay the credit
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				5. credit decrease your assets (as they are essentially small loans)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				6. debit increases your assets (as they are directly linked to your account)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				7. debit cards can decrease liability, revenue, and equity accounts
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				8. credit cards can increase liability, revenue, and equity accounts
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				9. if you do not repay the credit owed, your credit score is hurt (and lowers)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				10.credit card debt is a real issue! ensure you can repay your credit every month
+			</TextBlock>
+		</StackPanel>
+	</Panel>
+</UserControl>

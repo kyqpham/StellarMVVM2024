@@ -1,0 +1,63 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.finance_accounts_archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive info styles/finance_accounts_archive_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+			HorizontalAlignment="Center"
+			Name="financeAccountsArchiveStackPanel">
+			<TextBlock
+				Classes="title"
+				PointerReleased="returnPrevious">
+				finance accounts
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				1. many different types of bank/finance accounts for different purposes
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				2. a common type is a savings account, where you put money into it and it accumulates interest
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				3.savings accounts have a limit of how many times you can withdraw monthly
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				4. a penalty will occur if you withdraw too many times from a savings account
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				5. another common type of account is a checking account
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				6.checking accounts allow you to withdraw money, like for a debit card or ATM
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				7. if you withdraw more money than what's in your account, an overdraft fee will occur (like a penalty)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				8. there are also accounts specialized for retirement funds, like an IRA
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				9.  savings accounts can be used as investment accounts, though growth can be slow
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				10. accounts can also be joint, meaning multiple people manage it
+			</TextBlock>
+		</StackPanel>
+
+	</Panel>
+
+</UserControl>

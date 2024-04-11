@@ -1,0 +1,50 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Design.PreviewWith>
+    <Border Padding="20">
+      <!-- Add Controls for Previewer Here -->
+    </Border>
+  </Design.PreviewWith>
+	<Style Selector="TextBlock.title">
+		<Setter Property="FontWeight" Value="DemiBold"/>
+		<Setter Property="Foreground" Value="Yellow"/>
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="30"/>
+		<Setter Property="TextDecorations" Value="Underline"/>
+	</Style>
+	<Style Selector="TextBlock.tvmPrompt">
+			<Setter Property="FontWeight" Value="DemiBold"/>
+			<Setter Property="VerticalAlignment" Value="Center"/>
+			<Setter Property="Foreground" Value="Snow"/>
+			<Setter Property="FontSize" Value="20"/>
+	</Style>
+	<Style Selector="TextBox.tvmUserInput">
+			<Setter Property="FontWeight" Value="DemiBold"/>
+			<Setter Property="Foreground" Value="Black"/>
+			<Setter Property="CornerRadius" Value="5"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="BorderBrush" Value="Snow"/>
+			<Setter Property="Margin" Value="0 5"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+	</Style>
+	<Style Selector="Button.calculate">
+		<Setter Property="Margin" Value="100,0,20,20"/>
+		<Setter Property="Width" Value="150"/>
+		<Setter Property="Height" Value="50"/>
+		<Setter Property="Background" Value="rgba(255, 221, 239, 0.8)"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="CornerRadius" Value="50"/>
+		<Setter Property="BorderThickness" Value="2"/>
+		<Setter Property="BorderBrush" Value="Snow"/>
+		<Setter Property="FontWeight" Value="DemiBold"/>
+		<Setter Property="Foreground" Value="Snow"/>
+		<Setter Property="FontSize" Value="15"/>
+	</Style>
+	<Style Selector="TextBlock.calculatorDirections">
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+		<Setter Property="Margin" Value="95,0,10,10"/>
+		<Setter Property="FontSize" Value="15"/>
+		<Setter Property="Foreground" Value="Snow"/>
+	</Style>
+</Styles>

@@ -1,0 +1,85 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.inflation_calculator_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/finance option styles/inflation_calculator_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+				HorizontalAlignment="Center"
+				Margin="0,-10,0,20">
+			<TextBlock
+				Classes="title"
+				Padding="20,20,20,20"
+				PointerReleased="returnPrevious">
+				inflation calculator
+			</TextBlock>
+			<Grid
+				ShowGridLines="False"
+				Margin="5 15"
+				ColumnDefinitions="210, 100"
+				RowDefinitions="50, 50, 50, 50">
+				<TextBlock
+					Grid.Row="0"
+					Grid.Column="0"
+					Classes="tvmPrompt">
+					current worth ($)
+				</TextBlock>
+				<TextBox
+					Grid.Row="0"
+					Grid.Column="1"
+					Name="inflationCurrentWorth"
+					Classes="tvmUserInput">
+				</TextBox>
+				<TextBlock
+				Grid.Row="1"
+				Grid.Column="0"
+				Classes="tvmPrompt">
+					future worth ($)
+				</TextBlock>
+				<TextBox
+				Grid.Row="1"
+				Grid.Column="1"
+				Name="inflationNewWorth"
+				Classes="tvmUserInput">
+				</TextBox>
+				<TextBlock
+					Grid.Row="2"
+					Grid.Column="0"
+					Classes="tvmPrompt">
+					inflate rate (%)
+				</TextBlock>
+				<TextBox
+					Grid.Row="2"
+					Grid.Column="1"
+					Classes="tvmUserInput"
+					Name="inflationRate">
+				</TextBox>
+				<TextBlock
+					Grid.Row="3"
+					Grid.Column="0"
+					Classes="tvmPrompt">
+					years into future
+				</TextBlock>
+				<TextBox
+					Grid.Row="3"
+					Grid.Column="1"
+					Classes="tvmUserInput"
+					Name="inflationFutureYears">
+				</TextBox>
+			</Grid>
+			<Button
+				Classes="calculate"
+				Click="calculateInflation">
+				calculate
+			</Button>
+			<TextBlock
+				Name="inflationDirections"
+				Classes="calculatorDirections">
+			</TextBlock>
+		</StackPanel>
+	</Panel>
+</UserControl>

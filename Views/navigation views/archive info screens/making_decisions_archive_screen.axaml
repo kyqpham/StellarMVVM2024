@@ -1,0 +1,61 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.making_decisions_archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive info styles/making_decisions_archive_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+			HorizontalAlignment="Center"
+			Name="makingDecisionsArchive">
+			<TextBlock
+				Classes="title"
+				PointerReleased="returnPrevious">
+				making decisions
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				1. always consider your assets (what you have) and liabilities (what you owe)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				2. consider if something is in your standard of living? is it a luxury or a necessity?
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				3. if you are considering a loan, look at the interest rate and time to repay the loan
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				4. for housing, consider an apartment (flexible if you want to move) and a house (flexible for customization)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				5. for cars, remember that a car instantly depreciates at first use
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				6. for insurance, look at the benefits. look at the annual payment. APR? copayments?
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				7. always remember to have multiple plans. think of the pros and cons.
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				8. ensure you can maintain whatever you buy. house/car maintenance, premiums, etc.
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				9. consider the financial aids, like for tuitions, FAFSA can help. deductibles exist, exemptions, etc.
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				10. research thoroughly for alternatives.
+			</TextBlock>
+		</StackPanel>
+	</Panel>
+</UserControl>

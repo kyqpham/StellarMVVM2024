@@ -1,0 +1,64 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Design.PreviewWith>
+    <Border Padding="20">
+    </Border>
+  </Design.PreviewWith>
+	<Style Selector="TextBlock.title">
+		<Setter Property="FontWeight" Value="DemiBold"/>
+		<Setter Property="Foreground" Value="Yellow"/>
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="30"/>
+		<Setter Property="TextDecorations" Value="Underline"/>
+	</Style>
+	<Style Selector="Label.incomeUserPrompt">
+			<Setter Property="FontWeight" Value="DemiBold"/>
+			<Setter Property="Foreground" Value="Snow"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		</Style>
+
+		<Style Selector="TextBox.incomeUserInput">
+			<Setter Property="BorderBrush" Value="Snow"/>
+			<Setter Property="BorderThickness" Value="5"/>
+			<Setter Property="Margin" Value="0 2"/>
+			<Setter Property="Foreground" Value="Snow"/>
+		</Style>
+
+		<Style Selector="TextBlock.budgetUserPrompt">
+			<Setter Property="FontWeight" Value="DemiBold"/>
+			<Setter Property="Foreground" Value="Snow"/>
+			<Setter Property="Margin" Value="15 10"/>
+		</Style>
+
+		<Style Selector="TextBox.budgetUserInput">
+			<Setter Property="FontWeight" Value="DemiBold"/>
+			<Setter Property="Foreground" Value="Snow"/>
+			<Setter Property="CornerRadius" Value="5"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="BorderBrush" Value="Snow"/>
+			<Setter Property="Margin" Value="0 5"/>
+		</Style>
+	<Style Selector="TextBlock.title">
+		<Setter Property="FontWeight" Value="DemiBold"/>
+		<Setter Property="Foreground" Value="Yellow"/>
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="30"/>
+		<Setter Property="TextDecorations" Value="Underline"/>
+	</Style>
+	<Style Selector="TextBlock.recommendedBudgetText">
+		<Setter Property="FontWeight" Value="SemiBold"/>
+		<Setter Property="Foreground" Value="Snow"/>
+	</Style>
+	<Style Selector="Separator.divider">
+		<Setter Property="Background" Value="Snow"/>
+		<Setter Property="Width" Value="900"/>
+	</Style>
+	<Style Selector="TextBlock.recommendationText">
+		<Setter Property="FontWeight" Value="SemiBold"/>
+		<Setter Property="FontSize" Value="15"/>
+		<Setter Property="Foreground" Value="Snow"/>
+		<Setter Property="Margin" Value="5"/>
+	</Style>
+
+</Styles>

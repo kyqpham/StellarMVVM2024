@@ -1,0 +1,89 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive_screen_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+
+		<StackPanel Name="archiveStackPanel"
+			HorizontalAlignment="Center">
+			<TextBlock Classes="title"
+				Padding="20,20,20,20"
+				PointerReleased="returnHome">
+				welcome to the archive
+			</TextBlock>
+			<Grid
+				RowDefinitions="100, 100, 100"
+				ColumnDefinitions="150,150, 150"
+				Margin="0,15,0,0">
+				<Button
+					Grid.Row="0"
+					Grid.Column="0"
+					Classes="archive_selection"
+					Click="inflationClicked">
+					inflation
+				</Button>
+				<Button
+					Grid.Row="0"
+					Grid.Column="1"
+					Classes="archive_selection"
+					Click="debitVsCreditClicked">
+					debit vs. credit
+				</Button>
+				<Button
+					Grid.Row="0"
+					Grid.Column="2"
+					Classes="archive_selection"
+					Click="financeInstitutionsClicked">
+					finance institution
+				</Button>
+				<Button
+					Grid.Row="1"
+					Grid.Column="0"
+					Classes="archive_selection"
+					Click="interestRatesClicked">
+					interest rates
+				</Button>
+				<Button
+					Grid.Row="1"
+					Grid.Column="1"
+					Classes="archive_selection"
+					Click="taxesClicked">
+					taxes
+				</Button>
+				<Button
+					Grid.Row="1"
+					Grid.Column="2"
+					Classes="archive_selection"
+					Click="makingDecisionsClicked">
+					making decisions
+				</Button>
+				<Button
+					Grid.Row="2"
+					Grid.Column="0"
+					Classes="archive_selection"
+					Click="settingGoalsClicked">
+					setting goals
+				</Button>
+				<Button
+					Grid.Row="2"
+					Grid.Column="1"
+					Classes="archive_selection"
+					Click="financeAccountsClicked">
+					finance accounts
+				</Button>
+				<Button
+					Grid.Row="2"
+					Grid.Column="2"
+					Classes="archive_selection"
+					Click="incomeClicked">
+					income
+				</Button>
+			</Grid>
+		</StackPanel>
+	</Panel>
+</UserControl>

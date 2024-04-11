@@ -1,0 +1,62 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.finance_institution_archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive info styles/finance_institution_archive_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+		HorizontalAlignment="Center"
+		Name="financeInstitutionArchiveStackPanel">
+			<TextBlock
+				Classes="title"
+				PointerReleased="returnPrevious">
+				financial institution
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				1. consumers save, spend, borrow, and invest with financial institutions
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				2. a commercial bank accepts deposit from its customers and, in turn, provides loans to its customers
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				3. a credit union is operated on a not-for-profit basis and is owned by its members
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				4. credit unions are similar to a bank in that it accepts deposits and make loans
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				5. there are banks specialized for savings and loans (savings and loans banks)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				6. securities firms pair people and organizations to invest with investors who need money grow businesses
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				7. people can also use check-cashing stores if they don't have financial institutions
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				8. check-cashing stores and alternatives also provide a faster access to loans
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				9. another alternative are payday loans (however, interest rates are high in repaying the loan)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				10.financial institutions are typically safer than these alternatives
+			</TextBlock>
+		</StackPanel>
+
+	</Panel>
+</UserControl>

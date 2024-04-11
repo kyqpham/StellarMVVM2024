@@ -1,0 +1,139 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StellarMVVM_2024
+build_property.ProjectDir = C:\Users\kyqpham\source\repos\StellarMVVM_2024\
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive info styles/debt_vs_credit_archive_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive info styles/finance_accounts_archive_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive info styles/finance_institution_archive_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive info styles/income_archive_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive info styles/inflation_archive_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive info styles/interest_rates_archive_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive info styles/making_decisions_archive_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive info styles/setting_goals_archive_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive info styles/taxes_archive_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/archive_screen_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/budget_recommendation_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/budget_screen_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/finance option styles/appreciation_calculator_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/finance option styles/compound_interest_calculator_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/finance option styles/deflation_calculator_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/finance option styles/depreciation_calculator_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/finance option styles/inflation_calculator_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/finance option styles/simple_interest_calculator_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/financial_calculators_screen_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Styles/home_screen_stylesheet.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/home_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive info screens/debt_vs_credit_archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive info screens/finance_accounts_archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive info screens/finance_institution_archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive info screens/income_archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive info screens/inflation_archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive info screens/interest_rates_archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive info screens/making_decisions_archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive info screens/setting_goals_archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive info screens/taxes_archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/archive_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/budget_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/calculator option screens/appreciation_calculator_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/calculator option screens/compound_interest_calculator_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/calculator option screens/deflation_calculator_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/calculator option screens/depreciation_calculator_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/calculator option screens/inflation_calculator_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/calculator option screens/simple_interest_calculator_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kyqpham/source/repos/StellarMVVM_2024/Views/navigation views/financial_calculators_screen.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

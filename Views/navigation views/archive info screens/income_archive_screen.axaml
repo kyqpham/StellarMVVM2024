@@ -1,0 +1,62 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.income_archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive info styles/income_archive_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+
+		<StackPanel
+			HorizontalAlignment="Center"
+			Name="incomeArchiveStackPanel">
+			<TextBlock
+				Classes="title"
+				PointerReleased="returnPrevious">
+				income
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				1. annual income is how much money you earn a year (usually from a job), minus taxes
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				2. the higher your income, the more you can afford
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				3. a good way to increase your income is to increase your human capital
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				4. human capital can be increased by higher education and soft workplace skills
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				5. soft skills include a collaborative skillset, good decision making, and more
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				6. your income can also determine your tax rate
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				7.  income should not be the only factor to decide a job
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				8. others things, like benefits, can also help you decide on a job
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				9.  remember that the government deducts taxes from the paycheck, lowering your income
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				10. a higher income can also mean a higher standard of living and more purchasing power
+			</TextBlock>
+		</StackPanel>
+	</Panel>
+</UserControl>

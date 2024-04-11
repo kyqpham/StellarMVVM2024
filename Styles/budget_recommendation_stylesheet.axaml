@@ -1,0 +1,30 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Design.PreviewWith>
+    <Border Padding="20">
+      <!-- Add Controls for Previewer Here -->
+    </Border>
+  </Design.PreviewWith>
+
+	<Style Selector="TextBlock.title">
+		<Setter Property="FontWeight" Value="DemiBold"/>
+		<Setter Property="Foreground" Value="Yellow"/>
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="30"/>
+		<Setter Property="TextDecorations" Value="Underline"/>
+	</Style>
+	<Style Selector="TextBlock.recommendedBudgetText">
+		<Setter Property="FontWeight" Value="SemiBold"/>
+		<Setter Property="Foreground" Value="Snow"/>
+	</Style>
+	<Style Selector="Separator.divider">
+		<Setter Property="Background" Value="Snow"/>
+		<Setter Property="Width" Value="900"/>
+	</Style>
+	<Style Selector="TextBlock.recommendationText">
+		<Setter Property="FontWeight" Value="SemiBold"/>
+		<Setter Property="FontSize" Value="15"/>
+		<Setter Property="Foreground" Value="Snow"/>
+		<Setter Property="Margin" Value="5"/>
+	</Style>
+</Styles>

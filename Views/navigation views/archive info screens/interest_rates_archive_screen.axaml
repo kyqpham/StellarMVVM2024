@@ -1,0 +1,61 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.interest_rates_archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive info styles/interest_rates_archive_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+			HorizontalAlignment="Center"
+			Name="interestRatesArchiveStackPanel">
+			<TextBlock
+				Classes="title"
+				PointerReleased="returnPrevious">
+				interest rates
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				1. interest rates are associated with savings accounts and loans
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				2. for interests rates and loans, it is the percent of the loan you owe, in addition to the loan itself
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				3. for savings accounts, it is the percent of the money in the account that is added for keeping money in
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				4. interest rates can be compounded or simple
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				5. simple interest is the percent of the original money owed/put in (loan/savings). this amount is constant
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				6. compound interest is the percent of the money owed/put in at that moment in time, not the initial amount
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				7. for compound interest, the amount added to the principle value owed/put in usually increases
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				8. as a result, savings accounts with compounded interest grow a lot faster
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				9. on the other hand, loans with compounded interest are harder to pay off than simple interset
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				10. interest rates are a big part of finding the best loans/financial institutions
+			</TextBlock>
+		</StackPanel>
+	</Panel>
+</UserControl>

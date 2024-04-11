@@ -1,0 +1,61 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="StellarMVVM_2024.Views.taxes_archive_screen">
+	<UserControl.Styles>
+		<StyleInclude Source="/Styles/archive info styles/taxes_archive_stylesheet.axaml"/>
+	</UserControl.Styles>
+	<Panel Background="Pink">
+		<StackPanel
+			HorizontalAlignment="Center"
+			Name="taxesArchiveStackPanel">
+			<TextBlock
+				Classes="title"
+				PointerReleased="returnPrevious">
+				taxes
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				1. while tedious, taxes help fund the government and are necessary
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				2. the government also controls the money supply via taxes
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				3. there are three levels of taxes: government, state, and local
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				4. the higher the taxes, the less money supply. the lower the taxes, the more money supply
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				5. tax rates are usually determined on the annual income and household members
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				6. the government can take taxes directly from the paycheck (like paychecks)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				7. companies + local governments also use sales taxes on products to increase their profit/funding
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				8. if a person does not pay their taxes or is of high suspicion, the IRS will investigate them
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				9. another alternative are payday loans (however, interest rates are high in repaying the loan)
+			</TextBlock>
+			<TextBlock
+				Classes="infoText">
+				10. people can also meet criteria for tax deductions, reducing tax owed
+			</TextBlock>
+		</StackPanel>
+	</Panel>
+</UserControl>
